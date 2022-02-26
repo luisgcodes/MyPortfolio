@@ -10,6 +10,62 @@
     --tertiary-color: #F1EFF0;
 }
 
+/* Header/Nav Styles */
+header h1, a {
+    color: var(--tertiary-color);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header span {
+    color: var(--secondary-color);
+}
+
+header .name {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+
+/* Background Color */
 body {
     background-color: var(--primary-color);
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#white {
+    color: var(--tertiary-color);
+}
+
+/* Paragraph Style */
+p {
+    color: var(--tertiary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
 }
