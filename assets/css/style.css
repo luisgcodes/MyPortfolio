@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2b3031;
+    --secondary-color: #DD7200;
+    --tertiary-color: #F1EFF0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
