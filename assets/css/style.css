@@ -74,9 +74,10 @@ body {
 /* Self Portrait */
 
 .portrait {
-    display: block;
+    display: relative;
     margin-left: auto;
     padding-top: 130px;
+    columns: right;
 }
 
  .portrait img {
@@ -115,7 +116,7 @@ body {
 
 .rb-img{
     position: relative;
-    width: 800px;
+    width: 668px;
 }
 .run-buddy img {
     display: block;
