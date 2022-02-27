@@ -11,8 +11,18 @@
 }
 
 /* Header/Nav Styles */
-header h1, a {
+header h1 {
+    color: var(--tertiary-color);;
+}
+
+nav a {
     color: var(--tertiary-color);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
 }
 
 .container {
@@ -46,7 +56,7 @@ nav li {
 }
 
 
-/* Background Color */
+/* Body/Background-color*/
 body {
     background-color: var(--primary-color);
 }
@@ -54,18 +64,45 @@ body {
 .content {
     width: 90%;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px  ;
 }
 
-#white {
-    color: var(--tertiary-color);
+img {
+    float: right;
+    display: flex;
+    border-radius: 5%;
+    width: 600px;
 }
+
+.list, .list a {
+    color: var(--tertiary-color);
+    list-style: none;
+    text-decoration: none;
+}
+
+#social li {
+    color: var(--tertiary-color);
+    list-style: none;
+}
+
 
 /* Paragraph Style */
-p {
-    color: var(--tertiary-color);
-}
+#text, p {
+        font-size: 19px;
+        color: var(--tertiary-color);
+    }
 
 h2 {
     color: var(--secondary-color);
+}
+
+@media all and (max-width: 980px) {
+    img {
+        width: 100%;
+    }
+
+    body {
+        text-align: center;
+        font-size: 19px;
+    }
 }
