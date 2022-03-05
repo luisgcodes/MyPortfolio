@@ -118,7 +118,7 @@ body {
     position: relative;
     width: 668px;
 }
-.run-buddy img {
+img {
     display: block;
     width: 100%;
     border-top-right-radius: 13px;
@@ -154,6 +154,47 @@ body {
 .rb-img h3 {
     font-size: 60px;
 }
+
+/* HORISEON IMG */
+
+.hs-image {
+    position: relative;
+    width: 300px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(221, 114, 0, 0.60);
+    color: var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.image__title h3{
+    font: 60px;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
 
 /* Paragraph Style */
 #text, p {
@@ -206,4 +247,3 @@ h2 {
         padding-top: 10px;
     }
 }
-
