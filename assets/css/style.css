@@ -219,6 +219,28 @@ h2 {
     font-size: 35px;
 }
 
+/* Skillsets */
+.skillsets {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.socials {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+}
+
+#flex  {
+    margin: 50 50 50 50;
+}
+
+
 /* Media Query */
 
 @media all and (max-width: 1500px) {
